@@ -4,7 +4,8 @@ Esta carpeta contiene las respuestas grupales a los ejercitarios de cada unidad,
 
 | Unidad | Enunciado completo | Respuestas del grupo |
 |---|---|---|
-| _(se agrega a medida que la cátedra publique cada ejercitario)_ | | |
+| 1 | [Guía del ejercitario](https://github.com/fjlesme/ucingsw1/blob/main/ejercitarios/unidad-01-ejercitario.docx) | [respuestas.md](unidad-01/respuestas.md) |
+| 2 | [Guía del ejercitario](https://github.com/fjlesme/ucingsw1/blob/main/ejercitarios/unidad-02-ejercitario.docx) | [respuestas.md](unidad-02/respuestas.md) |
 
 ## Cómo entregar
 
