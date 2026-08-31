@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ingeniería de Software I - UC</title>
+<style>
+:root{
+  --bg:#15171a;
+  --panel:#1c1f23;
+  --ink:#e7e5df;
+  --line:#33373d;
+  --signal:#7a9b8e;
+  --signal-dim:#232b28;
+  --muted:#8b8f96;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:'Georgia','Iowan Old Style',serif;
+  line-height:1.5;
+  padding:0 0 80px;
+}
+.wrap{max-width:760px;margin:0 auto;padding:40px 24px;}
+header{border-bottom:1px solid var(--line);padding-bottom:24px;margin-bottom:36px;}
+.eyebrow{
+  font-family:'Helvetica Neue',Arial,sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  font-size:12px;
+  color:var(--signal);
+  font-weight:700;
+  margin-bottom:8px;
+}
+h1{font-size:34px;margin:0 0 10px;letter-spacing:-0.01em;color:var(--ink);}
+.sub{color:var(--muted);font-size:15px;font-family:'Helvetica Neue',Arial,sans-serif;max-width:560px;}
+
+.section{margin-bottom:36px;}
+.section-title{
+  font-family:'Helvetica Neue',Arial,sans-serif;
+  font-size:12px;text-transform:uppercase;letter-spacing:.12em;
+  color:var(--signal);font-weight:700;margin-bottom:14px;
+}
+
+.card{
+  display:block;
+  border:1.5px solid var(--line);
+  border-radius:10px;
+  padding:18px 20px;
+  margin-bottom:12px;
+  background:var(--panel);
+  text-decoration:none;
+  color:var(--ink);
+  transition:border-color .15s, background .15s;
+}
+.card:hover{border-color:var(--signal);background:var(--signal-dim);}
+.card-title{font-size:18px;margin:0 0 4px;color:var(--ink);}
+.card-desc{
+  font-family:'Helvetica Neue',Arial,sans-serif;
+  font-size:13.5px;color:var(--muted);
+}
+
+.row{display:flex;gap:12px;flex-wrap:wrap;}
+.row .card{flex:1 1 220px;margin-bottom:0;}
+
+.unit-block{
+  border:1.5px solid var(--line);
+  border-radius:10px;
+  padding:20px;
+  margin-bottom:14px;
+  background:var(--panel);
+}
+.unit-num{
+  font-family:'Helvetica Neue',Arial,sans-serif;
+  font-size:11px;text-transform:uppercase;letter-spacing:.12em;
+  color:var(--signal);font-weight:700;margin-bottom:6px;
+}
+.unit-title{font-size:20px;margin:0 0 14px;color:var(--ink);}
+.unit-links{display:flex;gap:10px;flex-wrap:wrap;}
+.pill{
+  font-family:'Helvetica Neue',Arial,sans-serif;
+  font-size:13px;font-weight:700;
+  color:var(--bg);
+  background:var(--signal);
+  border-radius:20px;
+  padding:8px 16px;
+  text-decoration:none;
+  transition:background .15s;
+}
+.pill:hover{background:#8fae9f;}
+.pill.secondary{
+  background:transparent;
+  color:var(--signal);
+  border:1.5px solid var(--signal);
+}
+.pill.secondary:hover{background:var(--signal-dim);}
+
+.note{
+  font-family:'Helvetica Neue',Arial,sans-serif;
+  font-size:13px;color:var(--muted);
+  border-top:1px solid var(--line);
+  padding-top:20px;margin-top:8px;
+}
+footer{
+  font-family:'Helvetica Neue',Arial,sans-serif;
+  font-size:12.5px;color:var(--muted);
+  border-top:1px solid var(--line);
+  padding-top:20px;margin-top:12px;
+}
+footer a{color:var(--signal);}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">Ingeniería de Software I · UC</div>
+  <h1>Material de la materia</h1>
+  <div class="sub">Presentaciones, ejercitarios y el Trabajo Práctico Integrador, todo publicado en un mismo lugar.</div>
+</header>
+
+<div class="section">
+  <div class="section-title">Unidades</div>
+
+  <div class="unit-block">
+    <div class="unit-num">Unidad 02</div>
+    <p class="unit-title">Software: su naturaleza y sus cualidades</p>
+    <div class="unit-links">
+      <a class="pill" href="presentaciones/unidad-02-software-naturaleza-cualidades.pptx">Presentación</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="section">
+  <div class="section-title">Cómo entregar los ejercitarios</div>
+  <div class="unit-block">
+    <p class="card-desc" style="margin-bottom:14px;">Los ejercitarios se completan <strong style="color:var(--ink);">en el mismo grupo de 3</strong> del Trabajo Práctico, y se entregan dentro del <strong style="color:var(--ink);">repositorio propio del grupo</strong> — no acá.</p>
+    <ol style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;color:var(--ink);padding-left:20px;margin:0 0 16px;line-height:1.7;">
+      <li>Al principio del cuatrimestre, agreguen la carpeta de plantilla a la raíz de su propio repositorio.</li>
+      <li>Por cada unidad, completen <code style="background:var(--signal-dim);color:var(--signal);padding:2px 6px;border-radius:4px;">ejercitarios/unidad-0X/respuestas.md</code> editándolo directo desde la web de GitHub.</li>
+      <li>No hay botón de "entrega final": el commit antes de la fecha de cierre de cada unidad es la entrega válida.</li>
+    </ol>
+    <div class="unit-links">
+      <a class="pill" href="ejercitarios-plantilla/ejercitarios_carpeta.zip">Descargar plantilla (.zip)</a>
+      <a class="pill secondary" href="ejercitarios-plantilla/ejercitarios/">Ver contenido</a>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Trabajo Práctico Integrador</div>
+  <a class="card" href="trabajo-practico/guia-trabajo-practico.docx">
+    <p class="card-title">📋 Consigna del Trabajo Práctico</p>
+    <p class="card-desc">Análisis y diseño de un sistema para un usuario real, en grupos de 3, entregado en tres instancias: Conceptualización, Análisis y Diseño.</p>
+  </a>
+  <a class="card" href="trabajo-practico/plantilla-repositorio-grupo.zip">
+    <p class="card-title">📦 Plantilla de repositorio para el grupo</p>
+    <p class="card-desc">Estructura lista para usar como punto de partida, con GitHub Pages ya configurado para publicar las tres entregas.</p>
+  </a>
+  <p class="note">Cada grupo publica su trabajo en su propio repositorio y entrega solo el enlace. Para sumar tu grupo al listado de trabajos entregados, mirá <a href="https://github.com/fjlesme/ucingsw1/blob/main/CONTRIBUTING.md" style="color:var(--signal)">cómo hacerlo acá</a>.</p>
+</div>
+
+<footer>
+  Bibliografía base: Ghezzi, Mandrioli y Jazayeri, <em>Fundamentals of Software Engineering</em> (2.ª ed.) · Sommerville, <em>Software Engineering</em>.
+  &nbsp;·&nbsp; <a href="https://github.com/fjlesme/ucingsw1">Repositorio en GitHub</a>
+</footer>
+
+</div>
+</body>
+</html>
