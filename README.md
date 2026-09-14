@@ -25,7 +25,7 @@ trabajo-practico/        → consigna del TP Integrador y plantilla para los gru
 | Unidad | Tema | Presentación | Ejercitario | Fecha Limite de Commits |
 |---|---|---|---|---|
 | 1 | Ingeniería de software: una visión previa | [Ver .pptx](presentaciones/Ingenieria_de_Software_Vision_Previa.pptx) | [Ver .docx](ejercitarios/unidad-01-ejercitario.docx) | 21/09/2026 15:00 |
-| 2 | Software: su naturaleza y sus cualidades | [Ver .pptx](presentaciones/unidad-02-software-naturaleza-cualidades.pptx) | [Ver .docx](ejercitarios/unidad-02-ejercitario.docx) |  24/09/2026 20:00 |
+| 2 | Software: su naturaleza y sus cualidades | [Ver .pptx](presentaciones/unidad-02-software-naturaleza-cualidades.pptx) | [Ver .docx](ejercitarios/unidad-02-ejercitario.docx) |  24/09/2026 15:00 |
 | 3 | Principios de la ingeniería de software | [Ver .pptx](presentaciones/unidad-03-presentacion.pptx) | [Ver .docx](ejercitarios/unidad-03-ejercitario.docx) |  28/09/2026 15:00 |
 | 4 | Diseño del software | [Ver .pptx](presentaciones/unidad-04-presentacion.pptx) | [Ver .md](ejercitarios/unidad-04-ejercitario.md) | 01/10/2026 15:00 |
 
